@@ -1,0 +1,753 @@
+@media only screen and (min-width: 600px) {
+   
+
+    
+    body{
+        background-color: rgb(185, 185, 185);
+    }
+    ul{
+        list-style: none;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    
+    .home{
+        background-color: orange;
+        border-radius: 2rem;
+        font-size: 2rem;
+        text-decoration: none;
+        color: #173040;
+        font-family: Agency FB;
+    }
+    
+    .contact{
+        background-color: orange;
+        border-radius: 2rem;
+        font-size: 2rem;
+        text-decoration: none;
+        color: #173040;
+        font-family: Agency FB;
+    }
+    
+    .about{
+        background-color: orange;
+        border-radius: 2rem;
+        font-size: 2rem;
+        text-decoration: none;
+        color: #173040;
+        font-family: Agency FB;
+    }
+    .selected{
+        
+        background-color: rgb(187, 121, 0);
+    }
+
+    hr{
+        
+    border-color: black;
+    border-width: 2px;
+}
+
+.banner{
+    text-align: center;
+    font-size: 6rem;
+    color: #173040;
+    font-family: Agency FB;
+    
+
+    
+    
+}
+.banner span{
+    background-color: orange;
+    border-radius: 2rem;
+}
+
+.arrivals{
+    text-align: center;
+    border-radius: 2rem;
+    color: #173040;
+    font-size: 3rem;
+    
+}
+
+.arrivals span{
+    background-color: orange;
+    border-radius: 2rem;
+    font-family: Agency FB;
+    
+
+}
+
+.sellers{
+    text-align: center;
+    border-radius: 2rem;
+    color: #173040;
+    font-size: 3rem;
+}
+
+.sellers span{
+    background-color: orange;
+    border-radius: 2rem;
+    font-family: Agency FB;
+    
+
+
+}
+
+.manga{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.car{
+    display: flex;
+    justify-content: center;
+}
+
+.del{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    color: #173040;
+    font-family: Agency FB;
+    
+}
+
+.del span{
+    background-color: orange;
+    border-radius: 2rem;
+}
+
+.media{
+    display: flex;
+    justify-content: flex-start;
+    width: 9rem;
+    margin-left: 80%;
+    
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    font-family: Agency FB;
+    
+
+    
+}
+
+.logo{
+    width: 10rem;
+}
+
+.logo:hover{
+    animation-name: grow;
+    transition-duration: 2s;
+    transform: scale(130%);
+    transition-timing-function: ease-in-out;
+}
+
+.sellers:hover{
+    animation-name: grow;
+    transition-duration: 2s;
+    transform: scale(110%);
+    transition-timing-function: ease-in-out;
+}
+
+.arrivals:hover{
+    animation-name: grow;
+    transition-duration: 2s;
+    transform: scale(110%);
+    transition-timing-function: ease-in-out;
+}
+
+
+@keyframes grow{
+    0%{transform: scale(1);}
+    100%{transform: scale(1.5);}
+}
+
+.icons{
+    width: 10rem;
+    margin-left: 80%; 
+    
+    
+}
+
+.copy{
+    margin-bottom: 2rem;
+    
+}
+
+.henryimg{
+    width: 10rem;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.woolin{
+    margin-left: 11%;
+    font-size: x-large;
+    color: #173040;
+    font-family: AcmeFont;
+
+    
+}
+
+.woolin span{
+    background-color: orange;
+}
+
+.abouthenry{
+    width: 70%;
+    font-size: 2rem;
+    color: #173040;
+    
+    
+}
+
+.abouthenry span{
+    background-color: orange;
+}
+
+.henry{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap: 20px;
+    font-family: AcmeFont;
+
+}
+
+.contactpage{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+
+
+
+.storehours{
+    text-align: center;
+    color: #173040;
+    
+}
+
+.hours{
+    background-color: orange;
+    font-size: 2rem;
+    color: #173040;
+    font-family: AcmeFont;
+
+    
+}
+
+.days{
+    
+    margin: 10px;
+    padding: 0px 5px;
+    font-size: 1.5rem;
+    color: #173040;
+    font-family: AcmeFont;
+
+    
+}
+
+.days span{
+    background-color: orange;
+
+}
+
+.number{
+    text-align: center;
+    margin: 10px;
+    padding: 0px 5px;
+    font-size: 1.5rem;
+    color: #173040;
+
+    
+}
+
+.number span{
+    background: orange;
+    font-family: AcmeFont;
+
+    
+}
+
+.phonenumber{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #173040;
+
+    
+}
+
+.email{
+    text-align: center;
+    font-size: x-large;
+    color: #173040;
+    font-family: AcmeFont;
+
+    
+    
+}
+
+.phonenumber span{
+    background-color: orange;
+    color: #173040;
+    font-family: AcmeFont;
+
+    
+}
+
+.email span{
+    background-color: orange;
+    color: #173040;
+    font-family: AcmeFont;
+
+    
+}
+
+.content span{
+    background-color: orange;
+    font-size: 2rem;
+    color: #173040;
+    font-family: AcmeFont;
+
+    
+}
+
+.address{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #173040;
+    font-family: AcmeFont;
+
+    
+}
+
+.location{
+    text-align: center;
+    font-size: 2rem;
+    color: #173040;
+    font-family: AcmeFont;
+
+    
+}
+
+.location span{
+    background-color: orange;
+    color: #173040;
+    
+}
+
+
+.address span{
+    background-color: orange;
+    color: #173040;
+    font-family: AcmeFont;
+
+    
+}
+
+.img{
+    width: 50%;
+    margin-left: 30%;
+}
+
+.title span{
+    background-color: orange;
+    border-radius: 2rem;
+    
+    
+}
+
+.title{
+    font-size: 2rem;
+    text-align: center;
+    margin-right: 24%;
+    color: #173040;
+    
+    
+}
+
+.hallytitle{
+    font-size: 2rem;
+    margin-right: 13%;
+    color: #173040;
+    
+}
+
+.doe span{
+    background-color:  orange; 
+    border-radius: 2rem;
+    margin-left: 50%;
+    color: #173040;
+    font-family: AcmeFont;
+    
+}
+.moe span{
+    background-color: orange; 
+    border-radius: 2rem;
+    margin-left: 50%;
+    color: #173040;
+    font-family: AcmeFont;
+    
+    
+}
+.lana span{
+    background-color:orange;
+    border-radius: 2rem;
+    margin-left: 50%;
+    color: #173040;
+    font-family: AcmeFont;
+    
+}
+.hally span{
+    background-color:orange; 
+    border-radius: 2rem;
+    margin-left: 50%;
+    color: #173040;
+    font-family: AcmeFont;
+    
+}
+
+.abtmoe{
+    width: 50%;
+    text-align: center;
+    margin-left: 19%;
+    font-size: larger;
+    display: flex;
+    justify-content: flex-end;
+    color: #173040;
+    font-family: AcmeFont;
+    
+}
+
+.abtdoe{
+    width: 50%;
+    text-align: center;
+    margin-left: 19%;
+    font-size: larger;
+    display: flex;
+    justify-content: flex-end;
+    color: #173040;
+    font-family: AcmeFont;
+    
+}
+
+.abtlana{
+    width: 50%;
+    text-align: center;
+    margin-left: 19%;
+    font-size: larger;
+    display: flex;
+    justify-content: flex-end;
+    color: #173040;
+    font-family: AcmeFont;
+    
+}
+
+.abthally{
+    width: 50%;
+    text-align: center;
+    margin-left: 15%;
+    font-size: larger;
+    display: flex;
+    justify-content: flex-end;
+    color: #173040;
+    font-family: AcmeFont;
+    
+    
+}
+
+.helpers{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    
+    
+}
+
+.mobilemanga{
+    display: none;
+}
+
+
+}
+
+@media only screen and (max-width: 599px) {
+   
+    body {
+        background-color: rgb(185, 185, 185);
+        }
+
+
+    .home{
+        background-color: orange;
+        border-radius: 2rem;
+        font-size: 2rem;
+        text-decoration: none;
+        color: #173040;
+        font-family: Agency FB;
+    }
+    
+    .contact{
+        background-color: orange;
+        border-radius: 2rem;
+        font-size: 2rem;
+        text-decoration: none;
+        color: #173040;
+        font-family: Agency FB;
+    }
+    
+    .about{
+        background-color: orange;
+        border-radius: 2rem;
+        font-size: 2rem;
+        text-decoration: none;
+        color: #173040;
+        font-family: Agency FB;
+    }
+
+    ul{
+        list-style: none;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .logo{
+        width: 20%;
+    }
+
+    .selected{
+        
+        background-color: rgb(187, 121, 0);
+    }
+
+    .arrivals{
+        text-align: center;
+        font-size: 2rem;
+        font-family: Agency FB;
+
+    }
+
+    .arrivals span{
+        background: orange;
+        border-radius: 2rem;
+    }
+
+    .manga{
+
+        display: flex;
+        justify-content: space-evenly;
+        width: 1px;
+      
+    }
+
+    .media{
+        width: 10rem;
+        margin-left: 23rem;
+        
+    }
+
+    .icons{
+        width: 9rem;
+        margin-left: 15rem;
+    }
+
+    .sellers{
+        text-align: center;
+        font-size: 2rem;
+        font-family: Agency FB;
+
+    }
+
+    .sellers span{
+        background: orange;
+        border-radius: 2rem;
+    }
+
+    .car{
+        display: none;
+    }
+
+    .del{
+        display: none;
+    }
+
+    .banner{
+        display: none;
+    }
+
+    .henryimg{
+        width: 10rem;
+    }
+
+    .abouthenry{
+        background-color: orange;
+        float: right;
+        clear: right;
+        font-family: AcmeFont;
+
+
+    }
+
+    .woolin{
+        text-align:inherit;
+        font-family: AcmeFont;
+
+    }
+
+    .woolin span{
+        background: orange;
+    }
+
+    .img{
+        width: 50%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .title span{
+        background-color: orange;
+        border-radius: 2rem;
+        font-size: x-large;
+        font-family: AcmeFont;
+
+    }
+
+    .hallytitle{
+        text-align: center;
+        font-size: x-large;
+    }
+
+    .hallytitle span{
+        background-color: orange;
+        border-radius: 2rem;
+        font-family: AcmeFont;
+
+        
+    }
+
+    .abtdoe{
+        margin-left: 30%;
+        margin-right: 30%;
+        text-align: center;
+    }
+    
+
+    .abtmoe{
+        margin-left: 30%;
+        margin-right: 30%;
+        text-align: center;
+    }
+
+    .abtlana{
+        margin-left: 30%;
+        margin-right: 30%;
+        text-align: center;
+    }
+
+    .abthally{
+        margin-left: 30%;
+        margin-right: 30%;
+        text-align: center;
+    }
+
+    .abtdoe span{
+        background-color: orange;
+        font-family: AcmeFont;
+
+    }
+
+    .abtmoe span{
+        background-color: orange;
+        font-family: AcmeFont;
+
+    }
+
+    .abtlana span{
+        background-color: orange;
+        font-family: AcmeFont;
+
+    }
+
+    .abthally span{
+        background-color: orange;
+        font-family: AcmeFont;
+    }
+
+    .abouthenry{
+        float: left;
+        clear: left;
+    }
+
+    .hours{
+        font-size: x-large;
+    }
+
+    .hours span{
+        background-color: orange;
+    }
+
+    .storehours{
+        text-align: center;
+    }
+
+    .maplocation{
+        display: none;
+    }
+
+    .contactinfo{
+        text-align: center;
+        
+    }
+
+    .content{
+        font-size: x-large;
+    }
+
+    .content span{
+        background-color: orange;
+    }
+
+    .manga {
+        display: none;
+    }
+
+    .mobilemanga{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .storehours span{
+        background-color: orange;
+        font-family: AcmeFont;
+
+    }
+
+    .location{
+        display: none;
+    }
+
+    .contactinfo span{
+        background-color: orange;
+        font-family: AcmeFont;
+
+    }
+
+    .footer{
+        font-family: Agency FB;
+
+    }
+}
